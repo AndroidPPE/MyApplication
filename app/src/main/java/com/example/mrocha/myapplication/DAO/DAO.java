@@ -6,7 +6,7 @@ package com.example.mrocha.myapplication.DAO;
     Ajouter par : Gwen
     Date d'ajout : 03/04/2018
     Version d'ajout : V1
-    Description : Class DAO
+    Description : Classe permettant une interaction avec la base de données
     ###############################################
      */
 
