@@ -7,7 +7,7 @@ import java.util.Date;
 Nom de la classe : Visite
 Date d'ajout : 03/04/2018
 Version d'ajout : V1
-Description : Classe Visite permettant pour la base de donnée
+Description : Classe Visite pour la base de donnée
 ###############################################
  */
 
@@ -69,6 +69,15 @@ public class Visite {
 
     //Fin Getter & Setter
 
+
+    /*
+###############################################
+Nom de la méthode : toString
+Date d'ajout : 03/04/2018
+Version d'ajout : V1
+Description : Méthodes permettant de retourner une chaîne de caractères. Dans ce cas, la description de l'objet.
+###############################################
+ */
     @Override
     public String toString() {
         return "Visite{" +

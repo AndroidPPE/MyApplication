@@ -67,6 +67,15 @@ Description : Méthodes permettant de retourner un attribut de l'objet Commercia
 
     // Fin catégorie "Getter & Setter"
 
+        /*
+###############################################
+Nom de la méthode : toString
+Date d'ajout : 03/04/2018
+Version d'ajout : V1
+Description : Méthodes permettant de retourner une chaîne de caractères. Dans ce cas, la description de l'objet.
+###############################################
+ */
+
     @Override
     public String toString() {
         return "Commerciaux{" +
