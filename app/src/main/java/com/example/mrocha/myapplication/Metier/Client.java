@@ -30,6 +30,17 @@ public class Client {
         this.lImportance = lImportance;
     }
 
+    /*
+###############################################
+Méthodes de la catégorie "Getter & Setter"
+Date d'ajout : 03/04/2018
+Version d'ajout : V1
+Description : Méthodes permettant de retourner un attribut de l'objet Client ou de le modifier
+###############################################
+ */
+
+    //Catégorie "Getter & Setter"
+
     public int getId() {
         return id;
     }
@@ -93,6 +104,8 @@ public class Client {
     public void setlImportance(Importance lImportance) {
         this.lImportance = lImportance;
     }
+
+    // fin Catégorie "Getter & Setter"
 
     @Override
     public String toString() {
