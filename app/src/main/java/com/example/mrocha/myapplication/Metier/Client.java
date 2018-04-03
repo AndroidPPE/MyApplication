@@ -3,6 +3,7 @@ package com.example.mrocha.myapplication.Metier;
 /*
 ###############################################
 Nom de la classe : Client
+Ajouter par : Marco
 Date d'ajout : 03/04/2018
 Version d'ajout : V1
 Description : Classe Client pour la base de données
@@ -33,6 +34,7 @@ public class Client {
     /*
 ###############################################
 Méthodes de la catégorie "Getter & Setter"
+Ajouter par : Marco
 Date d'ajout : 03/04/2018
 Version d'ajout : V1
 Description : Méthodes permettant de retourner un attribut de l'objet Client ou de le modifier
@@ -110,6 +112,7 @@ Description : Méthodes permettant de retourner un attribut de l'objet Client ou
     /*
 ###############################################
 Nom de la méthode : toString
+Ajouter par : Marco
 Date d'ajout : 03/04/2018
 Version d'ajout : V1
 Description : Méthodes permettant de retourner une chaîne de caractères. Dans ce cas, la description de l'objet.

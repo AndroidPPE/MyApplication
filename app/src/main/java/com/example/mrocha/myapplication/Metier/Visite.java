@@ -5,6 +5,7 @@ import java.util.Date;
 /*
 ###############################################
 Nom de la classe : Visite
+Ajouter par : Gwendoline
 Date d'ajout : 03/04/2018
 Version d'ajout : V1
 Description : Classe Visite pour la base de donnée
@@ -27,6 +28,7 @@ public class Visite {
     /*
     ###############################################
     Méthodes de la catégorie "Getter & Setter"
+    Ajouter par : Gwendoline
     Date d'ajout : 03/04/2018
     Version d'ajout : V1
     Description : Méthodes permettant de retourner un attribut de l'objet Visite ou de le modifier
@@ -73,6 +75,7 @@ public class Visite {
     /*
 ###############################################
 Nom de la méthode : toString
+Ajouter par : Gwendoline
 Date d'ajout : 03/04/2018
 Version d'ajout : V1
 Description : Méthodes permettant de retourner une chaîne de caractères. Dans ce cas, la description de l'objet.
