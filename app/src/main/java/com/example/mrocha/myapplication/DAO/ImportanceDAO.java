@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 /*
     ###############################################
-    Nom de la classe : ImportanceDAO
+    Nom de la classe : VisiteDAO
     Ajouter par : Marcoux
     Date d'ajout : 03/04/2018
     Version d'ajout : V1
@@ -31,7 +31,7 @@ public class ImportanceDAO {
 
     /*
     ###############################################
-    Nom de la méthode : ImportanceDAO
+    Nom de la méthode : VisiteDAO
     Ajouter par : Marcoux
     Date d'ajout : 03/04/2018
     Version d'ajout : V1
