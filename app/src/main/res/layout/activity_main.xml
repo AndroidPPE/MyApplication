@@ -4,15 +4,116 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.mrocha.myapplication.MainActivity">
+    tools:context="com.example.amorand.myapplication.MainActivity"
+    android:background="#E6E2AF">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
+    <LinearLayout
+        android:layout_width="1264dp"
+        android:layout_height="647dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="8dp"
+        android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginEnd="8dp">
+
+        <LinearLayout
+            android:layout_width="421dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#E6E2AF">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="421dp"
+                android:layout_height="wrap_content"
+                android:text="Nom Commercial"
+                android:background="#EFECCA"/>
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/mapView"
+                android:layout_width="421dp"
+                android:layout_height="421dp"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="421dp"
+                android:layout_height="match_parent"
+                android:text="ENREGISTREMENT" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="843dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#A7A37E">
+
+            <LinearLayout
+                android:layout_width="843dp"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:background="#046380">
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="421dp"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:background="#4BB5C1"/>
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radioNom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Nom"
+                        android:checked="true"/>
+
+                    <RadioButton
+                        android:id="@+id/radioDept"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="departement" />
+
+                    <RadioButton
+                        android:id="@+id/radioAct"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="activité" />
+
+                    <RadioButton
+                        android:id="@+id/radioImp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="importance" />
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/BtOK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="OK" />
+
+            </LinearLayout>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+
+            </ListView>
+
+        </LinearLayout>
+    </LinearLayout>
+
 
 </android.support.constraint.ConstraintLayout>
