@@ -2,11 +2,11 @@ package com.example.mrocha.myapplication.Metier;
 
 /*
 ###############################################
-Nom de la classe : Importance
+Nom de la classe : ImportanceDAO
 Ajouter par : Marco
 Date d'ajout : 03/04/2018
 Version d'ajout : V1
-Description : Classe Importance pour la base de données
+Description : Classe ImportanceDAO pour la base de données
 ###############################################
  */
 
@@ -25,7 +25,7 @@ Méthodes de la catégorie "Getter & Setter"
 Ajouter par : Marco
 Date d'ajout : 03/04/2018
 Version d'ajout : V1
-Description : Méthodes permettant de retourner un attribut de l'objet Importance ou de le modifier
+Description : Méthodes permettant de retourner un attribut de l'objet ImportanceDAO ou de le modifier
 ###############################################
 */
 
@@ -61,7 +61,7 @@ Description : Méthodes permettant de retourner une chaîne de caractères. Dans
 
     @Override
     public String toString() {
-        return "Importance{" +
+        return "ImportanceDAO{" +
                 "id=" + id +
                 ", niveau=" + niveau +
                 '}';

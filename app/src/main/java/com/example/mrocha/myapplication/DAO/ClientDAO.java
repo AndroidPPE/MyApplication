@@ -21,7 +21,7 @@ import java.util.ArrayList;
     ###############################################
      */
 
-public class ClientDAO {
+public class ClientDAO{
 
     private MonSQLiteOH dbMyApplication;
 
@@ -96,13 +96,13 @@ Description : Méthode ouvrant la connexion à la base de données (NLDR : dbMyA
         long insert;
 
         ContentValues contenu = new ContentValues();
-        contenu.put(COL_NOMCLIENT, Client.getNom());
-        contenu.put(COL_CP, Client.getCp());
-        contenu.put(COL_VILLE, Client.getVille());
-        contenu.put(COL_ADRESSE, Client.getAdresse());
-        contenu.put(COL_COM, Client.getCom());
-        contenu.put(COL_COMMERCIAUX, Client.getLeCommercial());
-        contenu.put(COL_IMPORTANCE, Client.getlImportance());
+        contenu.put(COL_NOMCLIENT, unClient.getNom());
+        contenu.put(COL_CP, unClient.getCp());
+        contenu.put(COL_VILLE, unClient.getVille());
+        contenu.put(COL_ADRESSE, unClient.getAdresse());
+        contenu.put(COL_COM, unClient.getCom());
+        contenu.put(COL_COMMERCIAUX, unClient.getLeCommercial().toString());
+        contenu.put(COL_IMPORTANCE, unClient.getlImportance().toString());
 
         insert = db.insert(TABLE_CLIENT, null, contenu);
 
@@ -132,8 +132,8 @@ Description : Méthode qui met à jour des données tiré de l'objet Client dans
         contenu.put(COL_VILLE, obj.getVille());
         contenu.put(COL_ADRESSE, obj.getAdresse());
         contenu.put(COL_COM, obj.getCom());
-        contenu.put(COL_COMMERCIAUX, obj.getLeCommercial());
-        contenu.put(COL_IMPORTANCE, obj.getlImportance());
+        contenu.put(COL_COMMERCIAUX, obj.getLeCommercial().toString());
+        contenu.put(COL_IMPORTANCE, obj.getlImportance().toString());
 
         update = db.update(TABLE_CLIENT,contenu,null,null);
 
@@ -202,7 +202,7 @@ Description : Fontion récupérant des données de la table CLIENT pour les stoc
             adresse = curseur.getString(4);
             com = curseur.getString(5);
             unCommercial = unCommercial.getNom();
-            uneImportance = uneImportance.getNiveau()
+            uneImportance = uneImportance.getNiveau();
             unClient = new Client(idClient, nomClient, cp, ville, adresse, com, unCommercial, uneImportance);
             returnListClient.add(unClient);
         }
