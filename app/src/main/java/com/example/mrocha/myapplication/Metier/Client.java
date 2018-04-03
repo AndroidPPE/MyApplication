@@ -5,7 +5,7 @@ package com.example.mrocha.myapplication.Metier;
 Nom de la classe : Client
 Date d'ajout : 03/04/2018
 Version d'ajout : V1
-Description : Classe Client permettant pour la base de donnée
+Description : Classe Client pour la base de données
 ###############################################
  */
 

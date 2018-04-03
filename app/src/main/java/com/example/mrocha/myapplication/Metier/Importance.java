@@ -5,7 +5,7 @@ package com.example.mrocha.myapplication.Metier;
 Nom de la classe : Importance
 Date d'ajout : 03/04/2018
 Version d'ajout : V1
-Description : Classe Importance permettant pour la base de donnée
+Description : Classe Importance pour la base de données
 ###############################################
  */
 
@@ -19,15 +19,15 @@ public class Importance {
     }
 
     /*
-    ###############################################
-    Méthodes de la catégorie "Getter & Setter"
-    Date d'ajout : 03/04/2018
-    Version d'ajout : V1
-    Description : Méthodes permettant de retourner un attribut de l'objet Importance ou de le modifier
-    ###############################################
-     */
+###############################################
+Méthodes de la catégorie "Getter & Setter"
+Date d'ajout : 03/04/2018
+Version d'ajout : V1
+Description : Méthodes permettant de retourner un attribut de l'objet Importance ou de le modifier
+###############################################
+*/
 
-    //Catégorie Getter & Setter
+    //Catégorie "Getter & Setter"
 
     public int getId() {
         return id;
@@ -45,7 +45,7 @@ public class Importance {
         this.niveau = niveau;
     }
 
-    //Fin Getter & Setter
+    //Fin catégorie "Getter & Setter"
 
     @Override
     public String toString() {

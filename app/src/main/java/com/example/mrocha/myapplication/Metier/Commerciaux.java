@@ -5,7 +5,7 @@ package com.example.mrocha.myapplication.Metier;
 Nom de la classe : Commerciaux
 Date d'ajout : 03/04/2018
 Version d'ajout : V1
-Description : Classe Commerciaux pour la base de donnée
+Description : Classe Commerciaux pour la base de données
 ###############################################
  */
 
@@ -23,15 +23,15 @@ public class Commerciaux {
     }
 
     /*
-    ###############################################
-    Méthodes de la catégorie "Getter & Setter"
-    Date d'ajout : 03/04/2018
-    Version d'ajout : V1
-    Description : Méthodes permettant de retourner un attribut de l'objet Commerciaux ou de le modifier
-    ###############################################
-     */
+###############################################
+Méthodes de la catégorie "Getter & Setter"
+Date d'ajout : 03/04/2018
+Version d'ajout : V1
+Description : Méthodes permettant de retourner un attribut de l'objet Commerciaux ou de le modifier
+###############################################
+ */
 
-    //Catégorie Getter & Setter
+    //Catégorie "Getter & Setter"
 
     public int getId() {
         return id;
@@ -65,7 +65,7 @@ public class Commerciaux {
         this.tel = tel;
     }
 
-    //Fin Getter & Setter
+    // Fin catégorie "Getter & Setter"
 
     @Override
     public String toString() {
