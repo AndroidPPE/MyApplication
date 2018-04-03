@@ -1,7 +1,12 @@
 package com.example.mrocha.myapplication.Metier;
 
-/**
- * Created by gboisson on 03/04/2018.
+/*
+###############################################
+Nom de la classe : Client
+Date d'ajout : 03/04/2018
+Version d'ajout : V1
+Description : Classe Client permettant pour la base de donnée
+###############################################
  */
 
 public class Client {
