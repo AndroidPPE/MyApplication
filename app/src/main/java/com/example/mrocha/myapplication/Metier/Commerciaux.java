@@ -10,6 +10,13 @@ public class Commerciaux {
     String prenom;
     int tel;
 
+    public Commerciaux(int id, String nom, String prenom, int tel) {
+        this.id = id;
+        this.nom = nom;
+        this.prenom = prenom;
+        this.tel = tel;
+    }
+
     public int getId() {
         return id;
     }
